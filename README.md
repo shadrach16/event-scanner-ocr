@@ -12,8 +12,8 @@
 ## 📱 App Interface
 
 <div align="center">
-  <img src="./assets/scan-screen.png" alt="Scanning Interface" width="250" style="margin-right: 20px;">
-  <img src="./assets/calendar-sync.png" alt="Calendar Confirmation" width="250">
+  <img src="./assets/scan-screen.jpg" alt="Scanning Interface" width="250" style="margin-right: 20px;">
+  <img src="./assets/calendar-sync.jpg" alt="Calendar Confirmation" width="250">
   <p><em>Figure 1: The Image Scanning Process (Left) and the Auto-Populated Event Details (Right).</em></p>
 </div>
 
