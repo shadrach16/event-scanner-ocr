@@ -43,7 +43,7 @@ Generic OCR tools often fail with stylized fonts on party flyers or specific Nig
 * It is optimized to recognize keywords in both formal English and local dialects (e.g., Pidgin) common in event descriptions.
 
 ### 4. In-App Purchases (Monetization)
-* Integrated **In-App Purchase (IAP)** functionality allows users to buy "Scan Credits" or unlock premium themes securely.
+* Integrated **In-App Purchase (IAP)** functionality allows users to disable ads.
 * Connects directly to Google Play Billing and Apple StoreKit for a seamless checkout experience.
 
 ---
@@ -54,7 +54,7 @@ This project demonstrates the power of **Hybrid Mobile Development**:
 
 * **Frontend Framework:** `React.js` (for the UI logic and state management).
 * **Native Runtime:** `Capacitor` (wraps the web app into a native binary for Play Store/App Store).
-* **AI/OCR Engine:** Integration with **Google Cloud Vision API** (or Tesseract.js) for raw text extraction, followed by a Regex/NLP parsing layer to classify data into "Date," "Time," and "Location."
+* **AI/OCR Engine:** Integration with **Google Nano Vision API** for raw text extraction, followed by a Regex/NLP parsing layer to classify data into "Date," "Time," and "Location."
 * **Storage:** `SQLite` (for local history of scanned events).
 
 ---
