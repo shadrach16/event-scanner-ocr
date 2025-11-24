@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "en-US"
+  },
+  "home": {
+    "whyHelpful": "Why is it helpful?",
+    "helpfulDescription": "Pick a photo or text, get an event on your calendar, instantly",
+    "photo": "Photo",
+    "text": "Text",
+    "selectFromGallery": "Select from Gallery",
+    "takePhoto": "Take Photo",
+    "selectFromFiles": "Select from Files",
+    "fileSelected": "File Selected",
+    "textReady": "Text Ready",
+    "textPlaceholder": "Enter event details here...",
+    "howItWorks": "How it works",
+    "step1": "Capture a photo or enter text containing event information",
+    "step2": "AI analyzes and extracts event details automatically",
+    "step3": "Review and edit the detected events as needed",
+    "step4": "Add events directly to your calendar with one tap",
+    "adNotice": "By continuing, we will show you a small ad first. It's necessary to keep the app free and running.",
+    "buyCoffee": "Buy a coffee to obtain full access"
+  },
+  "buttons": {
+    "change": "Change",
+    "continue": "Continue",
+    "processText": "Process Text",
+    "export": "Export",
+    "delete": "Delete",
+    "backToHome": "Back to Home"
+  },
+  "messages": {
+    "noEventsFound": "No events found in the content",
+    "processingFailed": "Processing failed. Please try again.",
+    "enterText": "Please enter some text",
+    "cameraError": "Camera access failed",
+    "fileError": "File selection failed",
+    "eventsDeleted": "{{count}} event(s) deleted",
+    "eventsExported": "Events exported successfully",
+    "exportFailed": "Export failed",
+    "eventsAddedSuccess": "Events successfully added to calendar!",
+    "processingComplete": "Processing complete!"
+  },
+  "processing": {
+    "analyzing": "Analyzing content...",
+    "pleaseWait": "Please wait while we process your event",
+    "fasterAccurate": "Processing with premium speed and accuracy"
+  },
+  "premium": {
+    "processing": "Premium Processing"
+  },
+  "navigation": {
+    "events": "Events",
+    "history": "History"
+  },
+  "settings": {
+    "title": "Settings",
+    "freeUser": "Free User",
+    "goPremium": "Go Premium",
+    "limitedProcessing": "Limited processing with ads",
+    "language": "Language",
+    "defaultCalendar": "Default Calendar",
+    "defaultReminder": "Default Reminder",
+    "supportInfo": "Support & Info",
+    "supportUs": "Support Us",
+    "aboutApp": "About App",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "settingsUpdated": "Settings updated successfully!",
+    "calendars": {
+      "personal": "Personal",
+      "work": "Work",
+      "family": "Family",
+      "other": "Other"
+    },
+    "reminders": {
+      "none": "None",
+      "5m": "5 minutes before",
+      "15m": "15 minutes before",
+      "30m": "30 minutes before",
+      "1h": "1 hour before",
+      "1d": "1 day before"
+    }
+  },
+  "history": {
+    "title": "History",
+    "noEvents": "No events yet",
+    "noEventsDescription": "Start by creating your first event from a photo or text",
+    "createFirstEvent": "Create First Event",
+    "noEventsInCategory": "No events in this category",
+    "all": "All",
+    "today": "Today",
+    "upcoming": "Upcoming",
+    "past": "Past"
+  },
+  "adModal": {
+    "title": "Support Our App",
+    "loadingTitle": "Loading Advertisement",
+    "loadingSubtitle": "Please wait while we prepare your ad...",
+    "errorTitle": "Ad Not Available",
+    "errorMessage": "We couldn't load an advertisement right now. You can continue using the app for free!",
+    "continueToApp": "Continue to App",
+    "advertisement": "Advertisement",
+    "supportMessage": "This helps us keep the app free for everyone!",
+    "adDisplay": "An ad will be displayed to keep the app free for everyone!",
+    "thankYou": "Thank you for your support 🙏",
+    "skipIn": "Skip in {{countdown}} seconds",
+    "skipNow": "Skip now",
+    "wait": "Wait {{countdown}}s",
+    "continue": "Continue",
+    "footerNotice": "Ads help us maintain and improve this free service",
+    "pushPermissionDenied": "Push notification permission was denied.",
+    "adLoadError": "Ad failed to load. Please try again later."
+  },
+  
+  "review": {
+    "title": "Review & Confirm",
+    "subtitle": "Adjust details before saving",
+    "countLabel": "{{count}} Event",
+    "untitledEvent": "Untitled Event",
+    "confirmationMessage": "Events extracted by AI are ready for your final review.",
+    "eventTitle": "Event Title",
+    "titlePlaceholder": "Enter a descriptive title",
+    "date": "Date",
+    "start": "Start",
+    "end": "End",
+    "location": "Location",
+    "locationPlaceholder": "Add location...",
+    "description": "Description",
+    "descriptionPlaceholder": "Add description or notes...",
+    "calendar": "Calendar",
+    "selectCalendar": "Select Calendar",
+    "reminder": "Reminder",
+    "selectReminder": "Select Reminder",
+    "minutesBefore": "minutes before",
+    "at": "at",
+    "noEventsTitle": "No events found",
+    "noEventsSub": "Return home to try processing new content.",
+    "adding": "Adding...",
+    "addToCalendar": "Add to Calendar ({{count}})"
+  }
+}

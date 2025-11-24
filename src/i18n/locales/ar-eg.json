@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "ar-EG"
+  },
+  "home": {
+    "whyHelpful": "ليه مفيد؟",
+    "helpfulDescription": "اختار صورة أو كلام، هتلاقي الحدث في التقويم بتاعك على طول",
+    "photo": "صورة",
+    "text": "كلام",
+    "selectFromGallery": "اختار من الألبوم",
+    "takePhoto": "صور",
+    "selectFromFiles": "اختار من الملفات",
+    "fileSelected": "اتختار الملف",
+    "textReady": "الكلام جاهز",
+    "textPlaceholder": "اكتب تفاصيل الحدث هنا...",
+    "howItWorks": "إزاي يشتغل",
+    "step1": "صور صورة أو اكتب كلام فيه معلومات عن الحدث",
+    "step2": "الذكاء الاصطناعي هيحلل ويطلع تفاصيل الحدث لوحده",
+    "step3": "راجع وعدل الأحداث اللي اتلقت لو عايز",
+    "step4": "ضيف الأحداث للتقويم بتاعك بضغطة واحدة",
+    "adNotice": "لو كملت، هنوريك إعلان صغير الأول. ده ضروري عشان التطبيق يفضل مجاني ويشتغل.",
+    "buyCoffee": "اشترينا قهوة عشان تاخد الوصول الكامل"
+  },
+  "buttons": {
+    "change": "غير",
+    "continue": "كمل",
+    "processText": "شغل الكلام",
+    "export": "صدر",
+    "delete": "امسح"
+  },
+  "messages": {
+    "noEventsFound": "مالقيناش أحداث في المحتوى",
+    "processingFailed": "المعالجة فشلت. جرب تاني.",
+    "enterText": "اكتب كلام",
+    "cameraError": "مقدرناش نوصل للكاميرا",
+    "fileError": "مقدرناش نختار الملف",
+    "eventsDeleted": "اتمسح {{count}} حدث/أحداث",
+    "eventsExported": "الأحداث اتصدرت بنجاح",
+    "exportFailed": "التصدير فشل"
+  },
+  "processing": {
+    "analyzing": "بنحلل المحتوى...",
+    "pleaseWait": "استنى شوية لحد ما نخلص معالجة المحتوى بتاعك",
+    "fasterAccurate": "معالجة بسرعة ودقة مميزة"
+  },
+  "premium": {
+    "processing": "معالجة مميزة"
+  },
+  "navigation": {
+    "events": "الأحداث",
+    "history": "التاريخ"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "freeUser": "مستخدم مجاني",
+    "limitedProcessing": "معالجة محدودة مع إعلانات",
+    "language": "اللغة",
+    "defaultCalendar": "التقويم الأساسي",
+    "defaultReminder": "التذكير الأساسي",
+    "supportInfo": "الدعم والمعلومات",
+    "supportUs": "ادعمنا",
+    "aboutApp": "عن التطبيق",
+    "contactUs": "كلمنا",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "settingsUpdated": "الإعدادات اتحدثت بنجاح!",
+    "calendars": {
+      "personal": "شخصي",
+      "work": "شغل",
+      "family": "عيلة",
+      "other": "تاني"
+    },
+    "reminders": {
+      "none": "مفيش",
+      "5m": "5د",
+      "15m": "15د",
+      "30m": "30د",
+      "1h": "1س",
+      "1d": "1ي"
+    }
+  },
+  "history": {
+    "title": "التاريخ",
+    "noEvents": "مفيش أحداث لسه",
+    "noEventsDescription": "ابدأ بإنك تعمل أول حدث من صورة أو كلام",
+    "createFirstEvent": "اعمل أول حدث",
+    "noEventsInCategory": "مفيش أحداث في الفئة دي",
+    "all": "كله",
+    "today": "النهارده",
+    "upcoming": "الجاي",
+    "past": "اللي فات"
+  }
+}

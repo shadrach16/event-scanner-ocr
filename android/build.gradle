@@ -1,0 +1,59 @@
+// File: C:\Users\HP\Desktop\photo2calendar\android\build.gradle (ROOT PROJECT FILE)
+
+buildscript {
+    ext {
+        minSdkVersion = 23
+        compileSdkVersion = 35
+        targetSdkVersion = 35
+
+        // --- ANDROIDX DEPENDENCY VERSIONS (Must also be here if used in app/build.gradle) ---
+        androidxCoreVersion = '1.13.1'
+        androidxAppCompatVersion = '1.6.1'
+        androidxCoordinatorLayoutVersion = '1.2.0'
+        coreSplashScreenVersion = '1.0.1'
+        junitVersion = '4.13.2'
+        androidxJunitVersion = '1.1.5'
+        androidxEspressoCoreVersion = '3.5.1'
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+        // If using the older capacitor-calendar, you might need JCenter if it's missing the fix
+        // jcenter() // Only if absolutely necessary for old plugins
+    }
+
+    dependencies {
+        // Essential Android build tools
+        classpath 'com.android.tools.build:gradle:8.13.0'
+        // Ensure this version is compatible with your project
+        // Essential Google Services for Firebase/AdMob
+        classpath 'com.google.gms:google-services:4.4.1' // Check for the latest stable version
+    }
+}
+
+allprojects {
+    // This is where you put repositories and the dependency resolution strategy fix
+    repositories {
+        google()
+        mavenCentral()
+        // jcenter() // Only if absolutely necessary
+    }
+
+    // You would place the AndroidX compatibility fix here if needed for older plugins
+    /*
+    configurations.all {
+        resolutionStrategy {
+            eachDependency { details ->
+                if (details.requested.group == 'com.android.support') {
+                    details.useVersion '28.0.0'
+                    details.because 'Older plugins require Android Support Library, forcing version 28 to use AndroidX mapping.'
+                }
+            }
+        }
+    }
+    */
+}
+
+// Ensure the application plugin is NOT applied here!
+// It should ONLY be in android/app/build.gradle

@@ -1,0 +1,72 @@
+# General
+node_modules/
+dist/
+www/
+build/
+.DS_Store
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Capacitor specific
+capacitor.config.json.timestamp
+ionic.config.json.timestamp
+.ionic/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+# ----------------------------------------------------------------------------
+# ANDROID IGNORES
+# ----------------------------------------------------------------------------
+# Android Studio
+android/.gradle/
+android/local.properties
+android/*/local.properties
+android/.idea/
+android/app/build/
+android/build/
+android/captures/
+android/.externalNativeBuild/
+android/app/.cxx/
+
+# Android Keystores (SECURITY CRITICAL: Never commit these!)
+*.jks
+*.keystore
+*.key
+android/key.properties
+
+# Google Services (Optional: Ignore if you want to keep API keys private, though often safe to commit for public apps)
+# android/app/google-services.json
+
+# ----------------------------------------------------------------------------
+# iOS IGNORES
+# ----------------------------------------------------------------------------
+# CocoaPods
+ios/Pods/
+ios/Podfile.lock
+
+# Xcode
+ios/*.rtf
+ios/DerivedData/
+ios/*.ipa
+ios/*.xcuserstate
+ios/*.xcscmblueprint
+
+# Xcode User Data (Breakpoints, window layout, etc.)
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+
+# Google Services (Optional: Ignore if you want to keep API keys private)
+# ios/App/App/GoogleService-Info.plist

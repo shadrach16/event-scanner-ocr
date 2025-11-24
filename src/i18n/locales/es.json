@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "es-ES"
+  },
+  "home": {
+    "whyHelpful": "¿Por qué es útil?",
+    "helpfulDescription": "Elige una foto o texto, obtén un evento en tu calendario, al instante",
+    "photo": "Foto",
+    "text": "Texto",
+    "selectFromGallery": "Seleccionar de la galería",
+    "takePhoto": "Tomar foto",
+    "selectFromFiles": "Seleccionar de archivos",
+    "fileSelected": "Archivo seleccionado",
+    "textReady": "Texto listo",
+    "textPlaceholder": "Ingresa los detalles del evento aquí...",
+    "howItWorks": "Cómo funciona",
+    "step1": "Toma una foto o ingresa texto que contenga información del evento",
+    "step2": "Nuestra IA analiza y extrae automáticamente los detalles del evento",
+    "step3": "Revisa y edita los eventos detectados según sea necesario",
+    "step4": "Agrega eventos directamente a tu calendario con un toque",
+    "adNotice": "Al continuar, te mostraremos primero un pequeño anuncio. Es necesario para mantener la aplicación gratuita y funcionando.",
+    "buyCoffee": "Cómpranos un café para obtener acceso completo"
+  },
+  "buttons": {
+    "change": "Cambiar",
+    "continue": "Continuar",
+    "processText": "Procesar texto",
+    "export": "Exportar",
+    "delete": "Eliminar"
+  },
+  "messages": {
+    "noEventsFound": "No se encontraron eventos en el contenido",
+    "processingFailed": "El procesamiento falló. Por favor, inténtalo de nuevo.",
+    "enterText": "Por favor, ingresa algún texto",
+    "cameraError": "El acceso a la cámara falló",
+    "fileError": "La selección de archivo falló",
+    "eventsDeleted": "{{count}} evento(s) eliminado(s)",
+    "eventsExported": "Eventos exportados exitosamente",
+    "exportFailed": "La exportación falló"
+  },
+  "processing": {
+    "analyzing": "Analizando contenido...",
+    "pleaseWait": "Por favor espera mientras procesamos tu contenido",
+    "fasterAccurate": "Procesando con velocidad y precisión premium"
+  },
+  "premium": {
+    "processing": "Procesamiento Premium"
+  },
+  "navigation": {
+    "events": "Eventos",
+    "history": "Historial"
+  },
+  "settings": {
+    "title": "Configuración",
+    "freeUser": "Usuario gratuito",
+    "limitedProcessing": "Procesamiento limitado con anuncios",
+    "language": "Idioma",
+    "defaultCalendar": "Calendario predeterminado",
+    "defaultReminder": "Recordatorio predeterminado",
+    "supportInfo": "Soporte e info",
+    "supportUs": "Apóyanos",
+    "aboutApp": "Acerca de la app",
+    "contactUs": "Contáctanos",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "settingsUpdated": "¡Configuración actualizada exitosamente!",
+    "calendars": {
+      "personal": "Personal",
+      "work": "Trabajo",
+      "family": "Familia",
+      "other": "Otro"
+    },
+    "reminders": {
+      "none": "Ninguno",
+      "5m": "5m",
+      "15m": "15m",
+      "30m": "30m",
+      "1h": "1h",
+      "1d": "1d"
+    }
+  },
+  "history": {
+    "title": "Historial",
+    "noEvents": "Aún no hay eventos",
+    "noEventsDescription": "Comienza creando tu primer evento desde una foto o texto",
+    "createFirstEvent": "Crear primer evento",
+    "noEventsInCategory": "No hay eventos en esta categoría",
+    "all": "Todos",
+    "today": "Hoy",
+    "upcoming": "Próximos",
+    "past": "Pasados"
+  }
+}

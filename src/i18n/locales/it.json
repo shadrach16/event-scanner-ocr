@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "it-IT"
+  },
+  "home": {
+    "whyHelpful": "Perché è utile?",
+    "helpfulDescription": "Scegli una foto o del testo, ottieni un evento nel tuo calendario, istantaneamente",
+    "photo": "Foto",
+    "text": "Testo",
+    "selectFromGallery": "Seleziona dalla galleria",
+    "takePhoto": "Scatta foto",
+    "selectFromFiles": "Seleziona dai file",
+    "fileSelected": "File selezionato",
+    "textReady": "Testo pronto",
+    "textPlaceholder": "Inserisci i dettagli dell'evento qui...",
+    "howItWorks": "Come funziona",
+    "step1": "Scatta una foto o inserisci del testo contenente informazioni sull'evento",
+    "step2": "La nostra IA analizza ed estrae automaticamente i dettagli dell'evento",
+    "step3": "Rivedi e modifica gli eventi rilevati secondo necessità",
+    "step4": "Aggiungi eventi direttamente al tuo calendario con un tocco",
+    "adNotice": "Continuando, ti mostreremo prima un piccolo annuncio. È necessario per mantenere l'app gratuita e funzionante.",
+    "buyCoffee": "Offrici un caffè per ottenere l'accesso completo"
+  },
+  "buttons": {
+    "change": "Cambia",
+    "continue": "Continua",
+    "processText": "Elabora testo",
+    "export": "Esporta",
+    "delete": "Elimina"
+  },
+  "messages": {
+    "noEventsFound": "Nessun evento trovato nel contenuto",
+    "processingFailed": "Elaborazione fallita. Riprova.",
+    "enterText": "Inserisci del testo",
+    "cameraError": "Accesso alla fotocamera fallito",
+    "fileError": "Selezione file fallita",
+    "eventsDeleted": "{{count}} evento/i eliminato/i",
+    "eventsExported": "Eventi esportati con successo",
+    "exportFailed": "Esportazione fallita"
+  },
+  "processing": {
+    "analyzing": "Analizzando il contenuto...",
+    "pleaseWait": "Attendi mentre elaboriamo il tuo contenuto",
+    "fasterAccurate": "Elaborazione con velocità e precisione premium"
+  },
+  "premium": {
+    "processing": "Elaborazione Premium"
+  },
+  "navigation": {
+    "events": "Eventi",
+    "history": "Cronologia"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "freeUser": "Utente gratuito",
+    "limitedProcessing": "Elaborazione limitata con annunci",
+    "language": "Lingua",
+    "defaultCalendar": "Calendario predefinito",
+    "defaultReminder": "Promemoria predefinito",
+    "supportInfo": "Supporto e info",
+    "supportUs": "Supportaci",
+    "aboutApp": "Info app",
+    "contactUs": "Contattaci",
+    "privacyPolicy": "Informativa privacy",
+    "termsOfService": "Termini di servizio",
+    "settingsUpdated": "Impostazioni aggiornate con successo!",
+    "calendars": {
+      "personal": "Personale",
+      "work": "Lavoro",
+      "family": "Famiglia",
+      "other": "Altro"
+    },
+    "reminders": {
+      "none": "Nessuno",
+      "5m": "5m",
+      "15m": "15m",
+      "30m": "30m",
+      "1h": "1h",
+      "1d": "1g"
+    }
+  },
+  "history": {
+    "title": "Cronologia",
+    "noEvents": "Nessun evento ancora",
+    "noEventsDescription": "Inizia creando il tuo primo evento da una foto o testo",
+    "createFirstEvent": "Crea primo evento",
+    "noEventsInCategory": "Nessun evento in questa categoria",
+    "all": "Tutti",
+    "today": "Oggi",
+    "upcoming": "Prossimi",
+    "past": "Passati"
+  }
+}

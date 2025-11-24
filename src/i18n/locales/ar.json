@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "ar-SA"
+  },
+  "home": {
+    "whyHelpful": "لماذا هو مفيد؟",
+    "helpfulDescription": "اختر صورة أو نص، احصل على حدث في تقويمك، فوراً",
+    "photo": "صورة",
+    "text": "نص",
+    "selectFromGallery": "اختيار من المعرض",
+    "takePhoto": "التقاط صورة",
+    "selectFromFiles": "اختيار من الملفات",
+    "fileSelected": "تم اختيار الملف",
+    "textReady": "النص جاهز",
+    "textPlaceholder": "أدخل تفاصيل الحدث هنا...",
+    "howItWorks": "كيف يعمل",
+    "step1": "التقط صورة أو أدخل نصاً يحتوي على معلومات الحدث",
+    "step2": "يقوم الذكاء الاصطناعي بتحليل واستخراج تفاصيل الحدث تلقائياً",
+    "step3": "راجع وعدّل الأحداث المكتشفة حسب الحاجة",
+    "step4": "أضف الأحداث مباشرة إلى تقويمك بلمسة واحدة",
+    "adNotice": "بالمتابعة، سنعرض عليك إعلاناً صغيراً أولاً. هذا ضروري للحفاظ على التطبيق مجانياً وقيد التشغيل.",
+    "buyCoffee": "اشترِ لنا قهوة للحصول على الوصول الكامل"
+  },
+  "buttons": {
+    "change": "تغيير",
+    "continue": "متابعة",
+    "processText": "معالجة النص",
+    "export": "تصدير",
+    "delete": "حذف"
+  },
+  "messages": {
+    "noEventsFound": "لم يتم العثور على أحداث في المحتوى",
+    "processingFailed": "فشلت المعالجة. يرجى المحاولة مرة أخرى.",
+    "enterText": "يرجى إدخال بعض النص",
+    "cameraError": "فشل الوصول إلى الكاميرا",
+    "fileError": "فشل اختيار الملف",
+    "eventsDeleted": "تم حذف {{count}} حدث/أحداث",
+    "eventsExported": "تم تصدير الأحداث بنجاح",
+    "exportFailed": "فشل التصدير"
+  },
+  "processing": {
+    "analyzing": "جاري تحليل المحتوى...",
+    "pleaseWait": "يرجى الانتظار بينما نعالج محتواك",
+    "fasterAccurate": "معالجة بسرعة ودقة مميزة"
+  },
+  "premium": {
+    "processing": "معالجة مميزة"
+  },
+  "navigation": {
+    "events": "الأحداث",
+    "history": "السجل"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "freeUser": "مستخدم مجاني",
+    "limitedProcessing": "معالجة محدودة مع إعلانات",
+    "language": "اللغة",
+    "defaultCalendar": "التقويم الافتراضي",
+    "defaultReminder": "التذكير الافتراضي",
+    "supportInfo": "الدعم والمعلومات",
+    "supportUs": "ادعمنا",
+    "aboutApp": "حول التطبيق",
+    "contactUs": "اتصل بنا",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "settingsUpdated": "تم تحديث الإعدادات بنجاح!",
+    "calendars": {
+      "personal": "شخصي",
+      "work": "عمل",
+      "family": "عائلة",
+      "other": "أخرى"
+    },
+    "reminders": {
+      "none": "لا شيء",
+      "5m": "5د",
+      "15m": "15د",
+      "30m": "30د",
+      "1h": "1س",
+      "1d": "1ي"
+    }
+  },
+  "history": {
+    "title": "السجل",
+    "noEvents": "لا توجد أحداث بعد",
+    "noEventsDescription": "ابدأ بإنشاء حدثك الأول من صورة أو نص",
+    "createFirstEvent": "إنشاء الحدث الأول",
+    "noEventsInCategory": "لا توجد أحداث في هذه الفئة",
+    "all": "الكل",
+    "today": "اليوم",
+    "upcoming": "القادمة",
+    "past": "الماضية"
+  }
+}

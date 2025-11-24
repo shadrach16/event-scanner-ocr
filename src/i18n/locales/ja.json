@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "ja-JP"
+  },
+  "home": {
+    "whyHelpful": "なぜ便利なのか？",
+    "helpfulDescription": "写真やテキストを選んで、カレンダーにイベントを瞬時に追加",
+    "photo": "写真",
+    "text": "テキスト",
+    "selectFromGallery": "ギャラリーから選択",
+    "takePhoto": "写真を撮る",
+    "selectFromFiles": "ファイルから選択",
+    "fileSelected": "ファイルが選択されました",
+    "textReady": "テキスト準備完了",
+    "textPlaceholder": "イベントの詳細をここに入力してください...",
+    "howItWorks": "使い方",
+    "step1": "イベント情報を含む写真を撮るかテキストを入力する",
+    "step2": "AIが自動的にイベントの詳細を分析・抽出します",
+    "step3": "検出されたイベントを必要に応じて確認・編集する",
+    "step4": "ワンタップでカレンダーに直接イベントを追加",
+    "adNotice": "続行すると、最初に小さな広告を表示します。アプリを無料で運営するために必要です。",
+    "buyCoffee": "フルアクセスのためにコーヒーを買ってください"
+  },
+  "buttons": {
+    "change": "変更",
+    "continue": "続行",
+    "processText": "テキストを処理",
+    "export": "エクスポート",
+    "delete": "削除"
+  },
+  "messages": {
+    "noEventsFound": "コンテンツにイベントが見つかりません",
+    "processingFailed": "処理に失敗しました。もう一度お試しください。",
+    "enterText": "テキストを入力してください",
+    "cameraError": "カメラアクセスに失敗しました",
+    "fileError": "ファイル選択に失敗しました",
+    "eventsDeleted": "{{count}}個のイベントが削除されました",
+    "eventsExported": "イベントが正常にエクスポートされました",
+    "exportFailed": "エクスポートに失敗しました"
+  },
+  "processing": {
+    "analyzing": "コンテンツを分析中...",
+    "pleaseWait": "コンテンツを処理中です。お待ちください",
+    "fasterAccurate": "プレミアムの速度と精度で処理中"
+  },
+  "premium": {
+    "processing": "プレミアム処理"
+  },
+  "navigation": {
+    "events": "イベント",
+    "history": "履歴"
+  },
+  "settings": {
+    "title": "設定",
+    "freeUser": "無料ユーザー",
+    "limitedProcessing": "広告付きの制限された処理",
+    "language": "言語",
+    "defaultCalendar": "デフォルトカレンダー",
+    "defaultReminder": "デフォルトリマインダー",
+    "supportInfo": "サポート・情報",
+    "supportUs": "サポートする",
+    "aboutApp": "アプリについて",
+    "contactUs": "お問い合わせ",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "settingsUpdated": "設定が正常に更新されました！",
+    "calendars": {
+      "personal": "個人",
+      "work": "仕事",
+      "family": "家族",
+      "other": "その他"
+    },
+    "reminders": {
+      "none": "なし",
+      "5m": "5分",
+      "15m": "15分",
+      "30m": "30分",
+      "1h": "1時間",
+      "1d": "1日"
+    }
+  },
+  "history": {
+    "title": "履歴",
+    "noEvents": "まだイベントがありません",
+    "noEventsDescription": "写真やテキストから最初のイベントを作成して始めましょう",
+    "createFirstEvent": "最初のイベントを作成",
+    "noEventsInCategory": "このカテゴリにはイベントがありません",
+    "all": "すべて",
+    "today": "今日",
+    "upcoming": "今後",
+    "past": "過去"
+  }
+}

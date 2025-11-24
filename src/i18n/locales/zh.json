@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "zh-CN"
+  },
+  "home": {
+    "whyHelpful": "为什么有用？",
+    "helpfulDescription": "选择照片或文本，立即在日历中获得事件",
+    "photo": "照片",
+    "text": "文本",
+    "selectFromGallery": "从相册选择",
+    "takePhoto": "拍照",
+    "selectFromFiles": "从文件选择",
+    "fileSelected": "文件已选择",
+    "textReady": "文本就绪",
+    "textPlaceholder": "在此输入事件详情...",
+    "howItWorks": "工作原理",
+    "step1": "拍照或输入包含事件信息的文本",
+    "step2": "我们的AI自动分析并提取事件详情",
+    "step3": "根据需要查看和编辑检测到的事件",
+    "step4": "一键直接将事件添加到日历",
+    "adNotice": "继续操作时，我们会先显示一个小广告。这是保持应用免费运行的必要条件。",
+    "buyCoffee": "请我们喝杯咖啡以获得完整访问权限"
+  },
+  "buttons": {
+    "change": "更改",
+    "continue": "继续",
+    "processText": "处理文本",
+    "export": "导出",
+    "delete": "删除"
+  },
+  "messages": {
+    "noEventsFound": "内容中未找到事件",
+    "processingFailed": "处理失败。请重试。",
+    "enterText": "请输入一些文本",
+    "cameraError": "相机访问失败",
+    "fileError": "文件选择失败",
+    "eventsDeleted": "已删除{{count}}个事件",
+    "eventsExported": "事件导出成功",
+    "exportFailed": "导出失败"
+  },
+  "processing": {
+    "analyzing": "正在分析内容...",
+    "pleaseWait": "请稍等，我们正在处理您的内容",
+    "fasterAccurate": "以高级速度和准确性处理中"
+  },
+  "premium": {
+    "processing": "高级处理"
+  },
+  "navigation": {
+    "events": "事件",
+    "history": "历史"
+  },
+  "settings": {
+    "title": "设置",
+    "freeUser": "免费用户",
+    "limitedProcessing": "有广告的有限处理",
+    "language": "语言",
+    "defaultCalendar": "默认日历",
+    "defaultReminder": "默认提醒",
+    "supportInfo": "支持和信息",
+    "supportUs": "支持我们",
+    "aboutApp": "关于应用",
+    "contactUs": "联系我们",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "settingsUpdated": "设置更新成功！",
+    "calendars": {
+      "personal": "个人",
+      "work": "工作",
+      "family": "家庭",
+      "other": "其他"
+    },
+    "reminders": {
+      "none": "无",
+      "5m": "5分钟",
+      "15m": "15分钟",
+      "30m": "30分钟",
+      "1h": "1小时",
+      "1d": "1天"
+    }
+  },
+  "history": {
+    "title": "历史",
+    "noEvents": "还没有事件",
+    "noEventsDescription": "从照片或文本创建您的第一个事件开始",
+    "createFirstEvent": "创建第一个事件",
+    "noEventsInCategory": "此类别中没有事件",
+    "all": "全部",
+    "today": "今天",
+    "upcoming": "即将到来",
+    "past": "过去"
+  }
+}

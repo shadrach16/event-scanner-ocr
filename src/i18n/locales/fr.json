@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "fr-FR"
+  },
+  "home": {
+    "whyHelpful": "Pourquoi est-ce utile ?",
+    "helpfulDescription": "Choisissez une photo ou du texte, obtenez un événement dans votre calendrier, instantanément",
+    "photo": "Photo",
+    "text": "Texte",
+    "selectFromGallery": "Sélectionner depuis la galerie",
+    "takePhoto": "Prendre une photo",
+    "selectFromFiles": "Sélectionner depuis les fichiers",
+    "fileSelected": "Fichier sélectionné",
+    "textReady": "Texte prêt",
+    "textPlaceholder": "Entrez les détails de l'événement ici...",
+    "howItWorks": "Comment ça marche",
+    "step1": "Prenez une photo ou saisissez du texte contenant des informations d'événement",
+    "step2": "Notre IA analyse et extrait automatiquement les détails de l'événement",
+    "step3": "Examinez et modifiez les événements détectés selon vos besoins",
+    "step4": "Ajoutez des événements directement à votre calendrier d'un seul clic",
+    "adNotice": "En continuant, nous vous montrerons d'abord une petite publicité. C'est nécessaire pour garder l'application gratuite et fonctionnelle.",
+    "buyCoffee": "Offrez-nous un café pour obtenir un accès complet"
+  },
+  "buttons": {
+    "change": "Changer",
+    "continue": "Continuer",
+    "processText": "Traiter le texte",
+    "export": "Exporter",
+    "delete": "Supprimer"
+  },
+  "messages": {
+    "noEventsFound": "Aucun événement trouvé dans le contenu",
+    "processingFailed": "Le traitement a échoué. Veuillez réessayer.",
+    "enterText": "Veuillez saisir du texte",
+    "cameraError": "L'accès à la caméra a échoué",
+    "fileError": "La sélection de fichier a échoué",
+    "eventsDeleted": "{{count}} événement(s) supprimé(s)",
+    "eventsExported": "Événements exportés avec succès",
+    "exportFailed": "L'exportation a échoué"
+  },
+  "processing": {
+    "analyzing": "Analyse du contenu...",
+    "pleaseWait": "Veuillez patienter pendant que nous traitons votre contenu",
+    "fasterAccurate": "Traitement avec vitesse et précision premium"
+  },
+  "premium": {
+    "processing": "Traitement Premium"
+  },
+  "navigation": {
+    "events": "Événements",
+    "history": "Historique"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "freeUser": "Utilisateur gratuit",
+    "limitedProcessing": "Traitement limité avec publicités",
+    "language": "Langue",
+    "defaultCalendar": "Calendrier par défaut",
+    "defaultReminder": "Rappel par défaut",
+    "supportInfo": "Support et info",
+    "supportUs": "Nous soutenir",
+    "aboutApp": "À propos de l'app",
+    "contactUs": "Nous contacter",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "settingsUpdated": "Paramètres mis à jour avec succès !",
+    "calendars": {
+      "personal": "Personnel",
+      "work": "Travail",
+      "family": "Famille",
+      "other": "Autre"
+    },
+    "reminders": {
+      "none": "Aucun",
+      "5m": "5m",
+      "15m": "15m",
+      "30m": "30m",
+      "1h": "1h",
+      "1d": "1j"
+    }
+  },
+  "history": {
+    "title": "Historique",
+    "noEvents": "Aucun événement encore",
+    "noEventsDescription": "Commencez par créer votre premier événement à partir d'une photo ou d'un texte",
+    "createFirstEvent": "Créer le premier événement",
+    "noEventsInCategory": "Aucun événement dans cette catégorie",
+    "all": "Tous",
+    "today": "Aujourd'hui",
+    "upcoming": "À venir",
+    "past": "Passé"
+  }
+}

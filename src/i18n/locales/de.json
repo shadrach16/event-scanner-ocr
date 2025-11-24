@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Photo2Calendar",
+    "locale": "de-DE"
+  },
+  "home": {
+    "whyHelpful": "Warum ist es hilfreich?",
+    "helpfulDescription": "Wählen Sie ein Foto oder Text, erhalten Sie sofort einen Termin in Ihrem Kalender",
+    "photo": "Foto",
+    "text": "Text",
+    "selectFromGallery": "Aus Galerie auswählen",
+    "takePhoto": "Foto aufnehmen",
+    "selectFromFiles": "Aus Dateien auswählen",
+    "fileSelected": "Datei ausgewählt",
+    "textReady": "Text bereit",
+    "textPlaceholder": "Geben Sie hier Termindetails ein...",
+    "howItWorks": "So funktioniert es",
+    "step1": "Machen Sie ein Foto oder geben Sie Text mit Termininformationen ein",
+    "step2": "Unsere KI analysiert und extrahiert automatisch Termindetails",
+    "step3": "Überprüfen und bearbeiten Sie die erkannten Termine nach Bedarf",
+    "step4": "Fügen Sie Termine direkt zu Ihrem Kalender mit einem Tippen hinzu",
+    "adNotice": "Durch Fortfahren zeigen wir Ihnen zuerst eine kleine Anzeige. Dies ist notwendig, um die App kostenlos und funktionsfähig zu halten.",
+    "buyCoffee": "Spendieren Sie uns einen Kaffee für vollen Zugang"
+  },
+  "buttons": {
+    "change": "Ändern",
+    "continue": "Fortfahren",
+    "processText": "Text verarbeiten",
+    "export": "Exportieren",
+    "delete": "Löschen"
+  },
+  "messages": {
+    "noEventsFound": "Keine Termine im Inhalt gefunden",
+    "processingFailed": "Verarbeitung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "enterText": "Bitte geben Sie etwas Text ein",
+    "cameraError": "Kamerazugriff fehlgeschlagen",
+    "fileError": "Dateiauswahl fehlgeschlagen",
+    "eventsDeleted": "{{count}} Termin(e) gelöscht",
+    "eventsExported": "Termine erfolgreich exportiert",
+    "exportFailed": "Export fehlgeschlagen"
+  },
+  "processing": {
+    "analyzing": "Inhalt wird analysiert...",
+    "pleaseWait": "Bitte warten Sie, während wir Ihren Inhalt verarbeiten",
+    "fasterAccurate": "Verarbeitung mit Premium-Geschwindigkeit und -Genauigkeit"
+  },
+  "premium": {
+    "processing": "Premium-Verarbeitung"
+  },
+  "navigation": {
+    "events": "Termine",
+    "history": "Verlauf"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "freeUser": "Kostenloser Benutzer",
+    "limitedProcessing": "Begrenzte Verarbeitung mit Anzeigen",
+    "language": "Sprache",
+    "defaultCalendar": "Standard-Kalender",
+    "defaultReminder": "Standard-Erinnerung",
+    "supportInfo": "Support & Info",
+    "supportUs": "Unterstützen Sie uns",
+    "aboutApp": "Über die App",
+    "contactUs": "Kontaktieren Sie uns",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "settingsUpdated": "Einstellungen erfolgreich aktualisiert!",
+    "calendars": {
+      "personal": "Persönlich",
+      "work": "Arbeit",
+      "family": "Familie",
+      "other": "Andere"
+    },
+    "reminders": {
+      "none": "Keine",
+      "5m": "5m",
+      "15m": "15m",
+      "30m": "30m",
+      "1h": "1h",
+      "1d": "1T"
+    }
+  },
+  "history": {
+    "title": "Verlauf",
+    "noEvents": "Noch keine Termine",
+    "noEventsDescription": "Beginnen Sie mit der Erstellung Ihres ersten Termins aus einem Foto oder Text",
+    "createFirstEvent": "Ersten Termin erstellen",
+    "noEventsInCategory": "Keine Termine in dieser Kategorie",
+    "all": "Alle",
+    "today": "Heute",
+    "upcoming": "Bevorstehend",
+    "past": "Vergangen"
+  }
+}
