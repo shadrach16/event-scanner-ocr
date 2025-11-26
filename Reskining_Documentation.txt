@@ -1,0 +1,131 @@
+# 📘 WHITE LABEL SETUP GUIDE: PHOTO2CALENDAR APP
+**Version:** 1.0
+**Tech Stack:** React.js + Capacitor (Android)
+
+---
+
+## 👋 INTRODUCTION
+Thank you for purchasing the White Label License for the Photo2Calendar App. This guide will walk you through renaming the app, changing the package name (so you can upload to Play Store), and setting up your AdMob ads.
+
+**⚠️ PREREQUISITES**
+Before you start, ensure you have the following installed on your computer:
+1.  **Node.js** (Download from nodejs.org)
+2.  **Android Studio** (Download from developer.android.com)
+3.  **VS Code** (Recommended for editing the Javascript code)
+
+---
+
+## CHAPTER 1: INITIAL SETUP
+
+1.  **Unzip the Project:** Extract the `Photo2Calendar_Source.zip` file to your Desktop.
+2.  **Install Dependencies:**
+    * Open the project folder in **VS Code**.
+    * Open the Terminal (`Ctrl + ~`) and type:
+        ```bash
+        npm install
+        ```
+3.  **Sync the Project:**
+    * Once installed, type:
+        ```bash
+        npx cap sync
+        ```
+
+---
+
+## CHAPTER 2: CHANGING THE PACKAGE NAME (CRITICAL)
+
+The "Package Name" (e.g., `com.waoapps.photo2calendar`) is the unique ID for your app on Google Play. You **MUST** change this, or Google will reject your app.
+
+**Step 1: Update Capacitor Config**
+1.  In VS Code, open the file named `capacitor.config.ts` (or `.json`).
+2.  Find the line: `appId: 'com.waoapps.photo2calendar'`.
+3.  Change it to your unique ID (e.g., `com.yourname.calapp`).
+4.  Save the file.
+
+**Step 2: Update Android Studio**
+1.  In your terminal, type: `npx cap open android`. This will open **Android Studio**.
+2.  Wait for the project to load (Gradle Sync).
+3.  In the left sidebar, navigate to `app` > `manifests` > `AndroidManifest.xml`.
+4.  Find `package="com.waoapps.photo2calendar"` and change it to your new ID.
+
+
+
+**Step 3: Refactor the Folder Structure**
+1.  In the Project pane (Left side), click the **Gear Icon** ⚙️ and uncheck **"Compact Middle Packages"**.
+2.  Navigate to `app` > `java` > `com` > `waoapps` > `photo2calendar`.
+3.  **Right-click** on `waoapps` -> **Refactor** -> **Rename**. Change it to your company name.
+4.  **Right-click** on `photo2calendar` -> **Refactor** -> **Rename**. Change it to your app name.
+5.  Click "Do Refactor" at the bottom if prompted.
+
+**Step 4: Update Build Gradle**
+1.  Open `Gradle Scripts` > `build.gradle (Module: app)`.
+2.  Find `applicationId "com.waoapps.photo2calendar"`.
+3.  Update it to your new ID.
+4.  Click **"Sync Now"** at the top right.
+
+---
+
+## CHAPTER 3: CHANGING THE APP NAME & LOGO
+
+**1. Change the Name on the Home Screen:**
+* Open `android/app/src/main/res/values/strings.xml`.
+* Change the value of `app_name`:
+    ```xml
+    <string name="app_name">Your New App Name</string>
+    ```
+
+**2. Change the Logo:**
+* In Android Studio, right-click the `res` folder (under `app/src/main`).
+* Select **New** > **Image Asset**.
+* In the "Path" field, select your new logo image (PNG/JPG).
+* Adjust the "Resize" slider to fit.
+* Click **Next** > **Finish**.
+
+---
+
+## CHAPTER 4: ADMOB CONFIGURATION (MONEY SETUP)
+
+This app comes with AdMob pre-integrated. You only need to paste your IDs.
+
+
+
+**Step 1: The App ID (AndroidManifest)**
+1.  Go to your AdMob Dashboard > App Settings > Copy **App ID** (starts with `ca-app-pub...`).
+2.  In Android Studio, open `AndroidManifest.xml`.
+3.  Look for this meta-data tag and replace the value:
+    ```xml
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="PASTE_YOUR_ADMOB_APP_ID_HERE"/>
+    ```
+
+**Step 2: The Ad Units (Banner & Interstitial)**
+1.  Go to VS Code (Web Side).
+2.  Navigate to `src/config/AppConfig.js` (or `AdConfig.js`).
+3.  You will see variables like:
+    ```javascript
+    export const ADMOB_BANNER_ID = 'ca-app-pub-3940256099942544/6300978111';
+    export const ADMOB_INTERSTITIAL_ID = 'ca-app-pub-3940256099942544/1033173712';
+    ```
+4.  Replace these test IDs with your real Ad Unit IDs from AdMob.
+
+**⚠️ IMPORTANT:** Do not use Real Ad IDs while testing on your own phone, or Google will ban you. Use Test IDs (provided in the code) for development, and swap to Real IDs only before publishing.
+
+---
+
+## CHAPTER 5: GENERATING THE RELEASE APK
+
+When you are ready to upload to Google Play:
+
+1.  In Android Studio, go to the top menu: **Build** > **Generate Signed Bundle / APK**.
+2.  Select **Android App Bundle**.
+3.  **Key Store Path:** Click "Create new". Save it somewhere safe.
+4.  **Passwords:** Create a password (write it down!).
+5.  Click Next > Select **Release** > Click **Create**.
+6.  Your `.aab` file will be generated in the `release` folder. Upload this file to the Google Play Console.
+
+---
+
+**NEED HELP?**
+If you encounter errors, please ensure you have run `npm install` and `npx cap sync`.
+For further assistance, contact support via the details provided on purchase.
