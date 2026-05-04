@@ -1,11 +1,11 @@
 # Photo2Calendar Landing Page
-# https://waoapps.github.io/photo2calendar/
+# https://shadrach16.github.io/event-scanner-ocr/
 
 User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://waoapps.github.io/photo2calendar/sitemap.xml
+Sitemap: https://shadrach16.github.io/event-scanner-ocr/sitemap.xml
 
 # Block AI training crawlers
 User-agent: GPTBot
