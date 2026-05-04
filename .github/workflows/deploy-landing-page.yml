@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'landing-page/**'
+      - '.github/workflows/deploy-landing-page.yml'
   workflow_dispatch:
 
 permissions:
